@@ -1,10 +1,201 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cyber Crime Awareness</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#eef5ff;
+color:#333;
+}
+
+header{
+background:#0a58ca;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#003366;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
+}
+
+.hero{
+background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=1200");
+background-size:cover;
+background-position:center;
+height:350px;
+display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+text-align:center;
+}
+
+.hero h1{
+font-size:42px;
+}
+
+.container{
+width:90%;
+margin:auto;
+padding:40px 0;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 4px 10px rgba(0,0,0,.2);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+ul{
+padding-left:20px;
+line-height:2;
+}
+
+footer{
+background:#003366;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
+}
+</style>
+
 </head>
+
 <body>
-  <h1>Welcome to My Website</h1>
-  <p>This is my first website.</p>
+
+<header>
+<h1>Cyber Crime Awareness</h1>
+<p>Stay Safe • Stay Secure</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#types">Types</a>
+<a href="#tips">Safety</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+<div>
+<h1>Protect Yourself From Cyber Crime</h1>
+<p>Think Before You Click</p>
+</div>
+</div>
+
+<div class="container">
+
+<section id="about">
+<h2>About Cyber Crime</h2><br>
+<p>
+Cyber Crime means crimes committed using computers, mobile phones or the Internet.
+Examples include hacking, phishing, identity theft, online fraud and cyber bullying.
+</p>
+</section>
+
+<br><br>
+
+<section id="types">
+<h2>Types of Cyber Crime</h2><br>
+
+<div class="cards">
+
+<div class="card">
+<h3>💻 Hacking</h3>
+<p>Unauthorized access to computers or networks.</p>
+</div>
+
+<div class="card">
+<h3>🎣 Phishing</h3>
+<p>Fake emails or websites used to steal passwords and bank details.</p>
+</div>
+
+<div class="card">
+<h3>💳 Online Fraud</h3>
+<p>Scams involving online payments or shopping.</p>
+</div>
+
+<div class="card">
+<h3>😔 Cyber Bullying</h3>
+<p>Harassing people through social media or online platforms.</p>
+</div>
+
+</div>
+</section>
+
+<br><br>
+
+<section id="tips">
+<h2>Cyber Safety Tips</h2><br>
+
+<ul>
+<li>Use strong passwords.</li>
+<li>Never share OTP or PIN.</li>
+<li>Enable Two-Factor Authentication.</li>
+<li>Update your software regularly.</li>
+<li>Don't click unknown links.</li>
+<li>Use antivirus software.</li>
+</ul>
+
+</section>
+
+<br><br>
+
+<section id="contact">
+<h2>Emergency Contact</h2><br>
+
+<p><b>Cyber Crime Helpline:</b> 1930</p>
+<p><b>Website:</b> https://cybercrime.gov.in</p>
+
+<br>
+
+<h3>Project Created By</h3>
+
+<p>Name: Jaspreet Kaur</p>
+<p>Course: Python (NIELIT)</p>
+
+</section>
+
+</div>
+
+<footer>
+
+<h3>© 2026 Cyber Crime Awareness</h3>
+
+</footer>
+
 </body>
 </html>
